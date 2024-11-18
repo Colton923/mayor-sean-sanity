@@ -65,5 +65,14 @@ export const recipe = defineType({
       type: 'string',
       validation: (rule) => rule,
     }),
+    defineField({
+      name: 'images',
+      type: 'array',
+      of: [
+        {
+          type: 'image',
+        },
+      ],
+    }),
   ],
 })
