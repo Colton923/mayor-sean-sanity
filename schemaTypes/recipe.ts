@@ -74,5 +74,9 @@ export const recipe = defineType({
         },
       ],
     }),
+    defineField({
+      name: 'pdf',
+      type: 'file',
+    }),
   ],
 })
