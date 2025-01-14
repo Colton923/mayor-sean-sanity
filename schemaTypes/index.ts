@@ -1,3 +1,3 @@
 import {recipe} from './recipe'
-
-export const schemaTypes = [recipe]
+import {markdown} from './markdown'
+export const schemaTypes = [recipe, markdown]
