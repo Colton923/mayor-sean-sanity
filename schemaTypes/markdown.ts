@@ -1,7 +1,7 @@
 import {defineField, defineType} from 'sanity'
 
 export const markdown = defineType({
-  name: 'markdown',
+  name: 'markdownSchema',
   title: 'Markdown',
   type: 'document',
   fields: [
